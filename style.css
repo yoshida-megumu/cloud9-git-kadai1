@@ -891,10 +891,8 @@ p {
 
 .content-width {
   max-width: 1140px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0px 50px;
+  margin: 0 auto;
 }
 
 
@@ -1317,5 +1315,80 @@ p {
   line-height: 1.5;
 }
 
+
+.message-thumbnail p span {
+  font-size: 24px;
+}
+
+
+img {
+ border: 0;
+ vertical-align: middle;
+}
+
+
+/*06.受講生の声*/
+.section7 {
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+
+.section7-header .contents-tidy {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.section7-header {
+  width: 100%;
+}  
+
+
+.section7-heading {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+
+.section7-box-heading {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.section7-header .bottom-line::after {
+  content: '';
+  display: block;
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+.section7 .section7-header + .section7-content {
+  margin-top: 60px;
+}
+
+
+.interview-list {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+
+.interview-list > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: calc(100% / 3);
+}
 
 
