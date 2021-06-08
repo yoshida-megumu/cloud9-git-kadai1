@@ -1392,3 +1392,106 @@ p {
 }
 
 
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+
+.interview-media .interview-media-thumbnail {
+  position: relative;
+  padding-top: 100%;
+}
+
+
+.interview-media-thumbnail {
+  overflow: hidden;
+}
+
+
+.interview-media .interview-media-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+
+.pc-dn {
+  display: none !important;
+}
+
+
+.interview-media .interview-thumbnail-titlebox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px 20px 15px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0));
+}
+
+
+.interview-media 
+.interview-thumbnail-titlebox .interview-thumbnail-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f79314;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.interview-media .interview-thumbnail-titlebox 
+.interview-thumbnail-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+  padding-top: 4px;
+  border-top: 1px solid #fff;
+}
+
+
+.interview-media .interview-thumbnail-titlebox
+.interview-thumbnail-subtitle .name {
+  font-size: 20px;
+}
+
+
+.interview-media .interview-thumbnail-titlebox
+.interview-thumbnail-subtitle > ＊:last-child {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+
+.interview-media .interview-media-text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+
+.section7-button {
+  margin-top: 60px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
