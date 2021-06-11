@@ -316,15 +316,15 @@ img {
 
 .content-width {
   max-width: 1140px;
-  padding:0 50px;
-  margin:0 auto;
-  position:relative;
+  padding: 0 50px;
+  margin: 0 auto;
+  position: relative;
 }
 
 
 .section3-header .contents-tidy {
-  flex-direction:column;
-  align-items:center;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -891,8 +891,10 @@ p {
 
 .content-width {
   max-width: 1140px;
-  padding: 0px 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -1493,5 +1495,357 @@ p {
 }
 
 
+.link-button {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #f79314;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+}
+
+
+.link-button span:first-child {
+  letter-spacing: 4px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.link-button span:last-child {
+  font-size: 14px;
+}
+
+
+/*07.採用企業の声*/
+.section8 .top-service, .section8 {
+  background-color: #fcfaf5;
+}
+
+
+.section8 {
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+
+.section8-header .contents-tidy {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.section8-header {
+  width: 100%;
+}
+
+
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.section8-heading {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+
+.section8-box-heading {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.section8-header .bottom-line::after {
+  content: '';
+  display: block;
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+.section8 .section8-header + .section8-content {
+  margin-top: 60px;
+}
+
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+
+.CorporationInterview__pickup {
+  position: absolute;
+  width: 121px;
+}
+
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+
+.CorporationInterview__thumbnail--pc {
+  display: block;
+}
+
+
+.CorporationInterview__thumbnail {
+  width: 100%;
+}
+
+
+/*08.POTEPANが運用するサービス*/
+.section8 .top-potepan {
+  position: relative;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #f6f6f6;
+}
+
+
+.section8 .top-potepan > ＊ {
+  position: relative;
+  z-index: 1;
+}
+
+
+.top-potepan .content-width {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+  background-size: 281px 275px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 50px) top;
+  padding-top: 35px;
+}
+
+
+.section9-header .contents-tidy {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.section9-header {
+  width: 100%;
+}
+
+
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.section9-heading {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+
+.section9-header h2 > span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+
+.pc-dn {
+  display: none !important;
+}
+
+
+.section9-box-heading {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.section9-header .bottom-line::after {
+  content: '';
+  display: block;
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+.section9 .section9-header + .section9-content {
+  margin-top: 60px;
+}
+
+
+.service-list {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.service-list > li {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: calc(100% / 3);
+}
+
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+
+.service-media-thumbnail .red {
+  border-color: #fc6803;
+} 
+
+
+.service-media-thumbnail {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 0 20px;
+  height: 190px;
+  box-sizing: border-box;
+}
+
+
+.service-media-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+
+.service-media-text {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+.service-media-thumbnail {
+  border-color: #08af77;
+}
+
+
+.service-media-thumbnail .black {
+  border-color: #000;
+}
+
+
+/*受講生の制作実績*/
+.site-footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #f79314;
+}
+
+
+.content-width {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.page-top-button .contents-tidy {
+  align-items: center;
+  justify-content: center;
+}
+
+
+.page-top-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -105px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 12px 30px -15px;
+  transition: 0.2s;
+}
+
+
+.page-top-arrow {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-left: solid 3px #f79214;
+  border-top: solid 3px #f79214;
+  transform: rotate(45deg);
+  text-decoration: none;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.footer-nav-item:link, .footer-nav-item:visited {
+  color: #fff;
+}
+
+
+.footer-nav-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.footer-nav-item > span {
+  font-weight: normal;
+  margin-left: 1em;
+}
 
 
