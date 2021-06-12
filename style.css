@@ -354,7 +354,7 @@ img {
 }
 
 
-.section3-header .bottom-line .contents-tidy::after {
+.section3-header .bottom-line::after {
   content: '';
   display:block;
   border-bottom: solid 6px #f79314;
@@ -375,14 +375,15 @@ img {
 
 /*03.POTEPAN CAMPの特徴*/
 .section4 {
-  padding: 75px 0 80px;
+  padding: 75px 0px 80px;
 }
 
 
 .content-width {
   max-width:1140px;
   padding:0px 50px;
-  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
   position:relative;
 }
 
@@ -1421,14 +1422,14 @@ a {
 }
 
 
-img {
-  border: 0;
-  vertical-align: middle;
+.pc-dn {
+  display: none !important;
 }
 
 
-.pc-dn {
-  display: none !important;
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
 
@@ -1770,7 +1771,7 @@ a {
 
 
 /*受講生の制作実績*/
-.site-footer {
+.footer {
   padding-top: 80px;
   padding-bottom: 40px;
   background-color: #f79314;
@@ -1831,6 +1832,11 @@ p {
 }
 
 
+.footer-main .footer-nav {
+  order: 2;
+}
+
+
 .footer-nav-item:link, .footer-nav-item:visited {
   color: #fff;
 }
@@ -1849,3 +1855,123 @@ p {
 }
 
 
+.footer-nav > li + li {
+  margin-top: 30px;
+}
+
+
+.footer-main .footer-character {
+  order: 3;
+  align-self: flex-end;
+}
+
+
+.footer-character > img {
+  width: auto;
+  height: 70px;
+}
+
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+
+.footer-main .footer-info {
+  order: 1;
+}
+
+
+.footer-info {
+  display: block;
+  color: #fff;
+}
+
+
+address {
+  font-style: normal;
+}
+
+
+.footer-info .footer-logo {
+  display: inline-block;
+  max-width: 280px;
+}
+
+
+a {
+  color: #222;
+  text-decoration: none;  
+}
+
+
+.footer-info .footer-logo > img {
+  width: 100%;
+  height: auto;
+}
+
+
+.footer-info .footer-company, .footer-info
+.footer-address {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+
+.footer-info .footer-company + .footer-address {
+  margin-top: 10px;
+}
+
+
+.footer-info .footer-address + .footer-social {
+  margin-top: 35px;
+}
+
+
+.footer-info .footer-social {
+  display: flex;
+}
+
+
+.footer-info .footer-social-item {
+  display: block;
+  max-width: 60px;
+}
+
+
+.footer-info .footer-social-item > img {
+  width: 100%;
+  height: auto;
+}
+
+
+.footer-info .footer-social > li + li {
+  margin-left: 20px;
+}
+
+
+.footer .site-footer-main + .site-footer-box {
+  margin-top: 60px;
+}
+
+
+.content-width {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.footer-copyright {
+  color: #fff;
+  font-size: 12px;
+}
