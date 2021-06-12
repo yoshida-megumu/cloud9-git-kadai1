@@ -148,12 +148,12 @@ ul {
 
 
 .section1-box {
-  position:relative;
-  max-width:337px;
+  position: relative;
+  max-width: 337px;
 }
 
 
-.section1-box > ＊ + ＊ {
+.section1-box-text {
   margin-top: 30px;
 }
 
@@ -170,6 +170,12 @@ ul {
 .section1-box-heading > img {
   width:100%;
   height:auto;
+}
+
+
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
 
@@ -206,6 +212,12 @@ ul {
  position: absolute;
  top: 0;
  right: -170px;
+}
+
+
+.section1-box .No1-notation img {
+  width: 154px;
+  height: 154px;
 }
 
 
@@ -310,7 +322,7 @@ img {
 
 /*movie*/
 .section3 {
-  padding:75px 0 80px;
+  padding:75px 0px 80px;
 }
 
 
@@ -347,7 +359,7 @@ img {
 
 .section3-box-heading {
   display:inline-block;
-  margin: 10px;
+  margin-top: 10px;
   font-weight:bold;
   font-size: 16px;
   text-align:center;
@@ -359,7 +371,7 @@ img {
   display:block;
   border-bottom: solid 6px #f79314;
   width: 50px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 
@@ -456,11 +468,6 @@ p {
 }
 
 
-ol {
-  list-style: none;
-}
-
-
 /*01 豊富な転職実績*/
 .desc-list > li {
   background-color: #fcfaf5;
@@ -538,7 +545,7 @@ p {
 
 
 .desc-list .example-title::after {
-  content: '';
+  content: "";
   display: block;
   border-bottom: solid 4px #f79314;
   margin-top: 10px;
